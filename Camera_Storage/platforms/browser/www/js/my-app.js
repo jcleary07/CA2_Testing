@@ -129,7 +129,7 @@ function readFile(fileEntry) {
         reader.readAsBinaryString(file);
         
         reader.onloadend = function() {
-
+            
             //var result = document.getElementById("myImage");
             console.log("Successful file read: " + this.result);
             console.log("file path: " + fileEntry.fullPath);
